@@ -1,4 +1,4 @@
-# 🧪 Web Automation Testing Framework
+#  Web Automation Testing Framework
 
 ## 📌 Overview
 A professional **Web Automation Testing project** using **Java, Selenium WebDriver, and TestNG**.  
@@ -102,6 +102,7 @@ It follows the **Page Object Model (POM)** design pattern for maintainability an
 2. Execute:
 ```bash
 mvn test
+
 
 
 
