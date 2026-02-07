@@ -21,8 +21,6 @@ It follows the **Page Object Model (POM)** design pattern for maintainability an
 ### **BaseTest**  
 - [`BaseTestClass.java`](https://github.com/ahmedsherifff4/web-automation-testing-herokuapp/blob/0f1c81a18896f85f33f2d8c2a0a3aa9e2af8ac06/src/test/java/BaseTest/BaseTestClass.java) – Base class for test initialization  
 
-- [`HooksPackeg/`](#) – Optional hooks (currently empty)  
-
 ### **Pages**  
 - [`AddRemovePage.java`](https://github.com/ahmedsherifff4/web-automation-testing-herokuapp/blob/0f1c81a18896f85f33f2d8c2a0a3aa9e2af8ac06/src/test/java/Pages/AddRemovePage.java)  
 - [`AlertsPage.java`](https://github.com/ahmedsherifff4/web-automation-testing-herokuapp/blob/0f1c81a18896f85f33f2d8c2a0a3aa9e2af8ac06/src/test/java/Pages/AlertsPage.java)  
@@ -51,7 +49,6 @@ It follows the **Page Object Model (POM)** design pattern for maintainability an
 ### **Configuration & Build**  
 - [`pom.xml`](https://github.com/ahmedsherifff4/web-automation-testing-herokuapp/blob/7d85a2dc14bbbe39e24c542e7a0aa9fcc6949b8a/pom.xml) – Maven dependencies  
 - [`testng.xml`](https://github.com/ahmedsherifff4/web-automation-testing-herokuapp/blob/7d85a2dc14bbbe39e24c542e7a0aa9fcc6949b8a/testng.xml) – TestNG Suite configuration  
-- [`.gitignore`](#) – Ignored files  
 
 > **Ignored files/folders:** `target/`, `test-output/`, `.idea/`, `*.iml`  
 
@@ -105,4 +102,5 @@ It follows the **Page Object Model (POM)** design pattern for maintainability an
 2. Execute:
 ```bash
 mvn test
+
 
